@@ -1,0 +1,13 @@
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://localhost:3306/stackoverflow?useSSL=false&serverTimezone=UTC
+    username: stackoverflow
+    password: stackoverflow
